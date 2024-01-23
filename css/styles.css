@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: sans-serif;
+}
+/*Header Section Styling*/
+.navbar-color {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(219, 180, 149, 0.9444152661064426) 61%,
+    rgba(53, 255, 97, 1) 100%
+  );
+}
+.navbar-color a {
+  color: white;
+}
+.navbar-color h4 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 3px 2px 5px blue;
+}
+.navbar-color h4:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.nav-brand {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+/*Main Section styling*/
+
+.maincontainer {
+  background: linear-gradient(
+    90deg,
+    rgba(121, 155, 196, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 90vh;
+}
+
+.mainpadding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact{
+    width:100%;
+    height:70vh;
+    background: linear-gradient(100deg, rgba(2,0,36,1) 0%, rgba(77,77,168,1) 65%, rgba(0,212,255,1) 100%);
+}
+@media screen and (max-width:600px) {
+    .maincontainer{
+        height:100vh;
+    }
+}
+/*Contact us Section*/
+.social{
+    width:200px;
+    display:flex;
+    align-items: center;
+}
+.social i{
+    color:white;
+}
+.social a{
+    margin:10px 10px;
+    text-decoration: none;
+    color:white;
+}
+.social p{
+    margin:10px 10px;
+}
+.social .media:hover{
+  color:yellow;
+}
+.socialblock{
+    margin:20px 130px;
+}
+.formblock{
+  width:250px;
+  height:250px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px black;
+  margin:0 70px;
+  font-family: "Poppins", sans-serif;
+  padding:10px;
+}
+.input-group i{
+  margin-right:5px;
+}
+.input-group{
+  margin:15px 15px;
+}
+.input-group input{
+  width:180px;
+  background-color: bisque;
+  outline:none;
+  border:none;
+  padding:5px 8px;
+}
+.input-group textarea{
+  width:180px;
+  background-color: bisque;
+  outline:none;
+  border:none;
+  padding:5px 8px;
+}
+/*Footer Section*/
+footer{
+    background-color: black;
+    color:white;
+}
+footer h4{
+    text-align: center;
+    padding:10px 0;
+}
+footer h5{
+    text-align: center;
+    font-size:15px;
+    padding-bottom:10px;
+}
+

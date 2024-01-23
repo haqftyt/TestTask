@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(0,0,50,0.6),rgba(0,0,50,0.6)),url(../img/travel.jpg);
+  background-size:cover;
+  background-position: center;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+} 
+.LoginForm{
+    width:250px;
+    height:250px;
+    background-color: #fff;
+    border-radius:10px;
+    box-shadow: 4px 2px 4px black;
+}
+.LoginForm h2{
+    text-align: center;
+    margin:20px 0;
+}
+.input-group i{
+    margin: 0 10px;
+}
+.input-group{
+    width:210px;
+    height:40px;
+    margin:8px 20px;
+    background-color: bisque;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.input-group input{
+    font-size: 15px;
+    outline:none;
+    border:none;
+    background-color: transparent;
+    padding-right:10px;
+    width:170px;
+}
+.LoginForm button{
+    width:100px;
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color: #4791ff;
+    color:#fff;
+    border:none;
+    margin:20px 70px;
+}
+button:hover{
+    border:2px solid darkblue;
+}

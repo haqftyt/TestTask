@@ -1,3 +1,3 @@
-###Technical Task from Computera Solutions Trichy
+## Techincal Task....
 
-In this I have used HTML,CSS, Bootstrap ,AOS, Javascript.
+# In this I have used HTML,CSS, Bootstrap ,AOS, Javascript.
